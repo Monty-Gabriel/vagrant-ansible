@@ -1,0 +1,9 @@
+---
+- hosts: filial_01
+  
+  roles:
+     - nginx
+     - common
+
+  become: yes
+...

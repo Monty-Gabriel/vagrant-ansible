@@ -1,0 +1,12 @@
+[webservers]
+web_01 			ansible_host=172.31.31.240
+
+[dbservers]
+db_01 			ansible_host=172.31.22.203
+
+[filial_01:children]
+webservers
+dbservers
+
+[filial_01:vars]
+ansible_private_key_file=/home/ubuntu/.ssh/chaves.pem

@@ -1,0 +1,14 @@
+---
+pacotes:
+        - vim
+        - curl
+        - telnet
+        - unzip
+        - wget
+        - net-tools
+        - htop
+        - nmap
+
+nome_usuario: monty_desafio02
+
+# vars file for common

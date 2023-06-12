@@ -1,0 +1,12 @@
+---
+- name: Instalando pacotes Desafio 02
+  apt:
+   name: "{{pacotes}}"
+   state: present
+
+- name: Criando Usuario Monty
+  user:
+          name: "{{nome_usuario}}"
+          state: present
+          createhome: yes 
+...
